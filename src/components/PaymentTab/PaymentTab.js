@@ -28,11 +28,11 @@ export default class App extends React.Component {
     this.setState({ token: decoded.user });
   }
 
-  handleCallback = ({  }, isValid) => {
-    if (isValid) {
-      this.setState({  });
-    }
-  };
+//   handleCallback = (isValid) => {
+//     if (isValid) {
+//       this.setState();
+//     }
+//   };
 
   handleInputFocus = ({ target }) => {
     this.setState({
